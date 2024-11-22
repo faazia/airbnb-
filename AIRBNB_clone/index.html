@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Airbnb Clone</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="logo.png" alt="Airbnb Logo">
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#explore">Explore</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    
+        </div>
+        <header class="header">
+            <div class="logo">
+                <img src="logo.png" alt="Airbnb Logo">
+            </div>
+            <button class="nav-toggle">☰</button> <!-- Add this button for toggling -->
+            <div class="login">
+                <button>Login</button>
+            </div>
+    
+    </header>
+
+    <div class="search-bar">
+        <input type="text" class="location-input" placeholder="Where are you going?">
+        <input type="date" class="date-input" placeholder="Check-in">
+        <input type="date" class="date-input" placeholder="Check-out">
+        <button class="search-button">Search</button>
+    </div>
+
+    <div class="property-grid">
+        <div class="property-card">
+            <img src="property1.jpg" alt="Property Image">
+            <h3>Cozy Apartment</h3>
+            <p>Price: $120/night</p>
+            <p>Rating: ★★★★☆</p>
+        </div>
+        <div class="property-card">
+            <img src="property2.jpg" alt="Property Image">
+            <h3>Modern Loft</h3>
+            <p>Price: $150/night</p>
+            <p>Rating: ★★★★★</p>
+        </div>
+        <div class="property-card">
+            <img src="property3.jpg" alt="Property Image">
+            <h3>Beach House</h3>
+            <p>Price: $200/night</p>
+            <p>Rating: ★★★★☆</p>
+        </div>
+        <!-- Add more property cards as needed -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
